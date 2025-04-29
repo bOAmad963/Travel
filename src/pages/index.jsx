@@ -6,6 +6,7 @@ function Index() {
 
   return (
     <>
+    <title>Yage travels</title>
       <img className={style.logo} src="./public/images/logo.jpg" alt="logo" />
       <Navegator />
       <div className={style.sliderContainer}>
