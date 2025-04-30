@@ -13,7 +13,7 @@ function Index() {
       <meta name='auther' content='Amen AF' />
       <meta name='viewport' content='width=device-width, initial-scale=1.0' />
     </head>
-      <img className={style.logo} src="public/images/logo.jpg" alt="logo" />
+      <img className={style.logo} src="travel/public/images/logo.jpg" alt="logo" />
       <Navegator />
       <div className={style.sliderContainer}>
         <div className={style.slider}>
