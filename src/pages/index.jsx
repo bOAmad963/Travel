@@ -6,15 +6,21 @@ function Index() {
 
   return (
     <>
-    <title>Yage travels</title>
-      <img className={style.logo} src="./public/images/logo.jpg" alt="logo" />
+    <head>
+      <title>Yage travels</title>
+      <meta name='description' content='travel any place you want' />
+      <meta name='keywords' content='shmet, fadi, yage, fadi yagi, travel' />
+      <meta name='auther' content='Amen AF' />
+      <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    </head>
+      <img className={style.logo} src="public/images/logo.jpg" alt="logo" />
       <Navegator />
       <div className={style.sliderContainer}>
         <div className={style.slider}>
-          <img className={style.slidingImgs} src='./public/images/airport.jpg' alt="" />
-          <img className={style.slidingImgs} src="./public/images/serveces.jpg" alt="" />
-          <img className={style.slidingImgs} src="./public/images/study.jpg" alt="" />
-          <img className={style.slidingImgs} src="./public/images/trust.jpg" alt="" />
+          <img className={style.slidingImgs} src='public/images/airport.jpg' alt="" />
+          <img className={style.slidingImgs} src="public/images/serveces.jpg" alt="" />
+          <img className={style.slidingImgs} src="public/images/study.jpg" alt="" />
+          <img className={style.slidingImgs} src="public/images/trust.jpg" alt="" />
         </div>
         <div className={style.imgDiscreption}>
           <div className={style.tran}>
