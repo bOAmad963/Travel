@@ -4,6 +4,7 @@ function Footer() {
   return (
     <>
       <div className={style.footer}>
+        <center>
         <div className={style.contact}>
           <div className={style.followUs}>
             <center>
@@ -27,15 +28,13 @@ function Footer() {
             </center>
           </div>
           
-          <p className={style.email}>Email: <a href="mailto:amenaf244@gmail.com">amenaf244@gmail.com</a></p>
+          <p className={style.email}><a href="mailto:yaghitravel@gmail.com">yaghitravel@gmail.com</a> Syria <br />
+            <a href="mailto:yaghibeirut@gmail.com">yaghibeirut@gmail.com</a> Beirut <br />
+            <a href="mailto:Yaghidubai@gmail.com">Yaghidubai@gmail.com</a> Dubai
+          </p>
           <p className={style.address}>Address:  السويداء امتداد شارع البلدبة <br />بناء الجرمقاني ط5 </p>
         </div>
-
-        <div className={style.information}>
-          <p>Created by: <a href="">amen</a></p>
-          <p>relased on:2024/2/2</p>
-          <p>market record</p>
-        </div>
+        </center>
       </div>
     </>
   )

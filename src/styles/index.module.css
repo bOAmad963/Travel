@@ -44,8 +44,8 @@ ul li {
   visibility: hidden;
   z-index: 10;
   background-color: white;
+  border: 2px solid;
 }
-
 .links {
   text-decoration: none;
   color: black;
@@ -156,9 +156,8 @@ ul li {
 
 .footer {
   font-size: 0.9rem;
-  display: flex;
   flex-direction: row;
-  height: 180px;
+  height: 230px;
   width: 100%;
   padding-left: 10px;
   padding-right: 10px;
@@ -168,7 +167,6 @@ ul li {
 .contact,
 .information {
   display: flex;
-  margin-left: 25%;
   flex-direction: column;
   gap: 5px;
 }

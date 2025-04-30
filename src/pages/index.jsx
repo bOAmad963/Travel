@@ -7,13 +7,15 @@ function Index() {
   return (
     <>
     <head>
-      <title>Yage travels</title>
+      <title>yaghi
+         travels</title>
       <meta name='description' content='travel any place you want' />
-      <meta name='keywords' content='shmet, fadi, yage, fadi yagi, travel' />
+      <meta name='keywords' content='shmet, fadi, yaghi
+      , fadi yagi, travel' />
       <meta name='auther' content='Amen AF' />
       <meta name='viewport' content='width=device-width, initial-scale=1.0' />
     </head>
-      <img className={style.logo} src="images/logo.jpg" alt="logo" />
+      <img className={style.logo} src="images/logo1.png" alt="logo" />
       <Navegator />
       <div className={style.sliderContainer}>
         <div className={style.slider}>
@@ -34,9 +36,11 @@ function Index() {
         </div>
       </div>
       <div className={style.introduction}>
-        <h2 className={style.headerIntroduction}>Descover the world with <b>yage travling!</b></h2>
+        <h2 className={style.headerIntroduction}>Descover the world with <b>yaghi
+           travling!</b></h2>
         <p>
-          Are you ready to turn your traveling dreams into reality? At <b>yage travels </b>
+          Are you ready to turn your traveling dreams into reality? At <b>yaghi
+             travels </b>
           we specialize in crafting unforgettable journeys tailored to your unique desires,
           wether you'seeking tranquilbeach escapes, cultural city adventures, or thrilling
           outdoor experiences, our expert team is here to guide you every step of the way
