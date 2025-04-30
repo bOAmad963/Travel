@@ -7,7 +7,7 @@ function About() {
   return (
     <div>
       <title>About us</title>
-      <img className={style.logo} src="public/images/logo.jpg" alt="logo" />
+      <img className={style.logo} src="images/logo.jpg" alt="logo" />
       <Navegator />
       <div>
         <h1>About Yage Travels</h1>

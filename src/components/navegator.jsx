@@ -7,7 +7,7 @@ function Navegator() {
   return (
     <>
       <button onClick={showMenu} id='showNavegator' className={style.showNavegator}>
-        <img src="public/icons/menu.png" alt="" />
+        <img src="icons/menu.png" alt="" />
       </button>
       <nav className={style.navegator}>
         <ul className={style.hNavegator}>
@@ -21,7 +21,7 @@ function Navegator() {
             <Link to='/about' className={style.links}>About us</Link>
           </li>
           <li>
-            <img className={style.logo} src="public/images/logo.jpg" alt="logo" />
+            <img className={style.logo} src="images/logo.jpg" alt="logo" />
           </li>
         </ul>
         <ul id='vNavegator' className={style.vNavegator}>
